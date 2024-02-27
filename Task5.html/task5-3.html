@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login form</title>
+
+    </head>
+    <body>
+        <form method="post" form="form3" action="Server1url" >
+            <table bgcolor="silver" align="center" cellspacing="25px">
+                <caption><h1>Sign Up</h1></caption>
+                <tr>
+                    <td> 
+                        <label for="id1">
+                            First Name
+                        </label>
+                    </td>
+                    <td><input type="text" id="id1" name="name1" placeholder="Type your name here"></td>
+                </tr>
+                <tr>
+                    <td><label for="id2">Last Name</label></td>
+                    <td><input type="text" id="id2" name="name2" placeholder="Type your name here"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="id3">Screen Name</label>
+                    </td>
+                    <td><input type="text" id="id3" name="name3" placeholder="type screen name here"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="id4">Date of Birth</label>
+                    </td><td><input type="date" id="id4" name="name4"></td>
+                <tr>
+                    <td><label for="id5">Gender</label></td>
+                    <td><input type="radio" value="male" id="id5" name="Gender"><label>Male</label>
+                    <input type="radio" value="Female" id="id5" name="Gender"><label>Female</label>
+                    <input type="radio" value="others" id="id6" name="Gender"><label>others</label>
+                
+                </td>
+                </tr>
+                <tr>
+                    <td><label>Country</label></td>
+                    <td>
+                        <select>
+                            <option>choose option below</option>
+                            <option>USA</option>
+                            <option>UK</option>
+                            <option>INDIA</option>
+                            <option>ITALY</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="id6">E-mail</label>
+                    </td>
+                    <td><input type="email" id="id6" name="email" placeholder="Type your email id here"></td>
+                </tr>
+                <tr>
+                    <td><label for="id7">Phone</label></td>
+                    <td><input type="number" id="id7" name="phone" placeholder="type your phonenumber here"></td>
+
+                </tr>
+                <tr>
+                    <td><label for="id8">Password</label></td>
+                    <td><input type="password" id="id8" name="password" placeholder="type your password here"></td>
+                </tr>
+                <tr>
+                    <td><label for="id9">Confirm password</label></td>
+                    <td><input type="password" id="id9" name="confirmpassword" placeholder="type your password here"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" value="checkbox" id="id10" name="checkbox"> I agree to the terms of use</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="SUBMIT">
+                        <input type="reset" value="CANCEL">
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+
+    </body>
+</html>
